@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.user.vina_1202140178_modul3.DetailActivity">
+
+        <TextView
+            android:id="@+id/titleDetail"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_placeholder"
+            android:padding="16dp"/>
+
+        <TextView
+            android:id="@+id/dummyTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleDetail"
+            android:text="@string/dummy_text"/>
+
+        <ImageView
+            android:id="@+id/drinkLevel"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/dummyTxt"
+            android:src="@drawable/levellist"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/btnPlus"
+            android:src="@drawable/ic_plus"
+            android:layout_below="@id/drinkLevel"
+            android:layout_toEndOf="@+id/drinkLevel"
+            android:layout_toRightOf="@id/drinkLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addLevel"/>
+
+        <TextView
+            android:id="@+id/drinkIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@id/drinkLevel"
+            android:layout_centerHorizontal="true"
+            android:text="1L" />
+
+        <ImageView
+            android:id="@+id/btnMinus"
+            android:src="@drawable/ic_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drinkLevel"
+            android:layout_toLeftOf="@id/drinkLevel"
+            android:onClick="decreaseLevel"/>
+    </RelativeLayout>
+
+</ScrollView>
+

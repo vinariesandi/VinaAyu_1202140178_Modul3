@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Vina_1202140178_modul3</string>
+
+    <string name="label_placeholder">Title</string>
+
+    <array name="img_src">
+        <item>@drawable/img_ades</item>
+        <item>@drawable/img_amidis</item>
+        <item>@drawable/aqua</item>
+        <item>@drawable/img_cleo</item>
+        <item>@drawable/img_club</item>
+        <item>@drawable/img_equil</item>
+        <item>@drawable/img_evian</item>
+        <item>@drawable/img_leminerale</item>
+        <item>@drawable/img_nestle</item>
+        <item>@drawable/img_pristine</item>
+        <item>@drawable/img_vit</item>
+    </array>
+
+    <string-array name="name_src">
+        <item>Ades</item>
+        <item>Amidis</item>
+        <item>Aqua</item>
+        <item>Cleo</item>
+        <item>Club</item>
+        <item>Equil</item>
+        <item>Evian</item>
+        <item>Leminerale</item>
+        <item>Nestle</item>
+        <item>Pristine</item>
+        <item>Vit</item>
+    </string-array>
+
+    <string-array name="info_src">
+        <item>Ini adalah air mineral Ades</item>
+        <item>Ini adalah air mineral Amidis</item>
+        <item>Ini adalah air mineral Aqua</item>
+        <item>Ini adalah air mineral Cleo</item>
+        <item>Ini adalah air mineral Club</item>
+        <item>Ini adalah air mineral Equil</item>
+        <item>Ini adalah air mineral Evian</item>
+        <item>Ini adalah air mineral Leminerale</item>
+        <item>Ini adalah air mineral Nestle</item>
+        <item>Ini adalah air mineral Pristine</item>
+        <item>Ini adalah air mineral Vit</item>
+    </string-array>
+
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+        vitae semper quam. In a metus ut nisl pharetra hendrerit et a leo. Curabitur nec sapien
+        odio. Vestibulum a mollis felis. Cras molestie felis nibh, ut maximus mauris feugiat
+        tincidunt. Curabitur ultricies eros sed ipsum pulvinar vehicula. Maecenas volutpat,
+        massa sit amet aliquam eleifend, massa lorem tempor sapien, eget finibus massa dolor
+        molestie lorem. Suspendisse at purus mauris. Proin nibh ligula, suscipit vel pharetra
+        posuere, bibendum id lorem.</string>
+    <string name="info_placeholder">Ini adalah air mineral</string>
+    <string name="air_label">Air</string>
+
+</resources>
